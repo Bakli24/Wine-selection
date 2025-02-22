@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the merged dataset
-merged_df = pd.read_csv('/Users/tanishqbakliwal/Desktop/interview info/project doc/wine selection/merged_data.csv')  
+merged_df = pd.read_csv('/Users/tanishqbakliwal/Desktop/merged_data.csv')  
 
 # Convert 'brand' column to strings
 merged_df['brand'] = merged_df['brand'].astype(str)
